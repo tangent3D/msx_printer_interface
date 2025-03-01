@@ -12,7 +12,7 @@ NC NC BUSDIRn WRn RESETn A6 A0 BUSY STROBEn DATAck D1 VCC
 
 ; BUSDIRn follows state of RDn & IORQn when I/O READ from 90h, else Hi-Z
     BUSDIRn.T = /RDn * /IORQn
-    BUSDIRn.E = /RDn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
+    BUSDIRn.E = /RDn * WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
 
 ; STROBEn stores state of D0 when I/O WRITE to 90h, resets to 1 upon /RESET
     STROBEn.R = D0
