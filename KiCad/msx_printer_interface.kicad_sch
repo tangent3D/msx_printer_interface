@@ -5527,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.6KΩ"
 			(at 232.41 80.01 90)
 			(effects
 				(font
@@ -6713,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.6KΩ"
 			(at 232.41 71.12 90)
 			(effects
 				(font
