@@ -28,3 +28,4 @@ fp-info-cache
 *.xml
 *.csv
 KiCad/~msx_printer_interface.kicad_pcb.lck
+*.lck
