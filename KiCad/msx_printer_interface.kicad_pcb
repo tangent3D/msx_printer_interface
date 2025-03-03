@@ -259,7 +259,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 15.470001 12.85 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -267,6 +267,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/norcomp-inc/112-014-213R001/955158"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb95fb6c-f675-4563-b36f-6a5cc6673ffe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -284,7 +297,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3ce48ca0-ce07-4a70-a293-5cd58deba492")
+			(uuid "a89ff444-3887-49fd-ae33-2a2062018287")
 		)
 		(fp_line
 			(start 0 15.1)
@@ -294,7 +307,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d8105db1-1667-4b91-8592-9b00a43eb0e5")
+			(uuid "b54686d3-71c1-4949-9a71-27dea2f0c26f")
 		)
 		(fp_line
 			(start 43.9 0)
@@ -304,7 +317,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5a41a547-0eec-4646-9d6e-923781ba72aa")
+			(uuid "5063f85c-fe8c-4cde-813d-2db2e5f3a948")
 		)
 		(fp_line
 			(start 0 0)
@@ -314,7 +327,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "660ef128-0eee-47e0-bb10-10c8109e875c")
+			(uuid "e5147b1d-7981-4f02-9a96-538bdfc4f6c5")
 		)
 		(fp_line
 			(start 0 0)
@@ -324,7 +337,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7c0d0444-ef76-460a-8329-7d1024da8b14")
+			(uuid "67d08649-b068-4b6f-81f9-a620249b7d3d")
 		)
 		(fp_line
 			(start 0 15.1)
@@ -334,7 +347,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "021f6b20-5402-411a-a6eb-d569eeefa3e5")
+			(uuid "11e4d857-98f8-4d4c-a4b7-d06d755c2c0a")
 		)
 		(fp_line
 			(start 9.35 0)
@@ -344,7 +357,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "8e7007ef-eab6-490f-a86f-613f0b55fe45")
+			(uuid "4d5937f9-679a-4072-9fa9-a78388aada3e")
 		)
 		(fp_line
 			(start 9.35 0)
@@ -354,7 +367,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6150625a-1ff4-428e-baa1-63a050dd31e8")
+			(uuid "458f6323-6a5b-4357-b01e-5477005a7fce")
 		)
 		(fp_line
 			(start 10.35 -8.5)
@@ -364,7 +377,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e488732e-1c5f-4b42-8de0-0990f1563311")
+			(uuid "31f971bb-f550-483b-9edd-80f3ecf4243b")
 		)
 		(fp_line
 			(start 34.55 0)
@@ -374,7 +387,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ab73ef85-9db0-49a8-9d15-8d1bfba04758")
+			(uuid "87204c6d-a116-40d1-9283-4cd638704cfb")
 		)
 		(fp_line
 			(start 34.55 0)
@@ -384,7 +397,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7fa8bf6a-c9ea-4cb8-bc2d-c9eabd5dc26f")
+			(uuid "706a3cf6-e6e1-4402-86e5-80f28a4ad2ec")
 		)
 		(fp_line
 			(start 43.9 15.1)
@@ -394,7 +407,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "1a2adbf2-ea47-447a-941b-fa0cb93a9b90")
+			(uuid "af3830ca-026d-4894-9696-5676e6e3eca5")
 		)
 		(fp_arc
 			(start 9.35 -7.5)
@@ -405,7 +418,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "0f003de6-915d-41ab-91c7-a80939376cdb")
+			(uuid "44c2d017-eef6-45f5-aa7c-c5500f9a68c5")
 		)
 		(fp_arc
 			(start 33.55 -8.5)
@@ -416,7 +429,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ac7bda69-a6ed-45d3-b47b-0af5f44723b3")
+			(uuid "7ae23190-63e4-4a7e-8b38-4813e5ab4244")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 21.95 -12 0)
@@ -437,7 +450,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
-			(uuid "544d9e56-69c6-48bc-9d09-519351601606")
+			(uuid "20ffbbc5-1f65-4e81-9bd3-dc9b6a67d061")
 		)
 		(pad "" thru_hole circle
 			(at 39.95 10.7 180)
@@ -445,7 +458,7 @@
 			(drill 3.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "9f22e559-eb58-4174-aa19-c1ae5d9502b6")
+			(uuid "89e624af-955b-4381-8be2-b26e462b05e4")
 		)
 		(pad "1" thru_hole roundrect
 			(at 15.47 12.85 180)
@@ -603,13 +616,14 @@
 			(uuid "1c8b0a08-7f7c-4fc4-b69d-096c30d1747c")
 		)
 		(group ""
-			(uuid "38db14cb-ed4a-4f91-aa9b-21657e181cbc")
+			(uuid "2b9c9f89-d47d-4a4f-833a-0b8e311a02bc")
 			(members "0c0a7866-65af-453d-8d93-a91bbcfb69c5" "1c8b0a08-7f7c-4fc4-b69d-096c30d1747c"
 				"26b924bd-5700-4f2c-94a3-75a097eea37a" "27b5684d-e7ad-4fd4-a35c-9f1a59914af6"
 				"2da13ce7-4d64-4f05-bb31-768e52e623ab" "44e7c2b7-0fdb-4c56-8cda-79c1ff45ca06"
 				"4eb66184-96c5-4d46-b49c-aad82fccf3f0" "51f9f195-ec98-4c60-a6fb-ad07772ecf56"
 				"93165707-9644-40a1-9461-4fdb156fb403" "aae9a250-7dab-46d6-9b1f-e968602b0601"
-				"b2d34c3a-9dc5-435a-9f80-ee943c6694b6" "b5158433-1ab5-4a98-8c8d-a4e54b964db1"
+				"b231ac7f-d77b-46fe-acc1-c325ff50f9ef" "b2d34c3a-9dc5-435a-9f80-ee943c6694b6"
+				"b5158433-1ab5-4a98-8c8d-a4e54b964db1" "e6a87e1e-4268-49c5-997e-c82c76df3fa1"
 				"efec8aa3-3521-4be9-aa31-7468daae999d" "fd3fae9f-cd49-41ea-85c4-d9465446c650"
 			)
 		)
@@ -1348,7 +1362,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJC476K016RNJ/563823"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJC106M016RNJ/563807"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2937,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 59.35 67.81175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4299,7 +4313,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8ac28224-6af0-429b-b571-1ade42c6347d")
+			(uuid "c43a02ab-f6dd-4431-980a-799b1299919c")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4312,7 +4326,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9b1fcdf5-223f-4274-8dad-eb5980fad4ee")
+			(uuid "65290db9-8fdd-466c-ba35-b798f8847222")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4325,7 +4339,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e5d6544-ed25-456c-aba8-3d35551454e7")
+			(uuid "b0eab94e-21c6-4aaf-8561-44c5c0eee256")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4352,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e9722ed-1548-4b99-a229-81f5e6c33149")
+			(uuid "8b64e41d-6669-4956-a9d8-23b4c1ca3eea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,16 +5779,6 @@
 		(net 1)
 		(uuid "af6c177d-ec9d-4927-a11f-e63178a3770b")
 	)
-	(gr_line
-		(start 92.2 66)
-		(end 26.5 66)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "b1d057cb-6883-497a-9d9a-0d1b4cc73758")
-	)
 	(gr_arc
 		(start 36.49 59.5)
 		(mid 37.76 58.23)
@@ -5838,7 +5842,7 @@
 		(uuid "ef26d2d4-3398-4f73-ac64-8ed27ec09f42")
 	)
 	(gr_text "MSX Printer Interface ◆ Rev. 0 ◆ tangent.space 2025"
-		(at 54.4125 17 0)
+		(at 54.4125 17.255 0)
 		(layer "F.SilkS")
 		(uuid "037725aa-f690-4a13-9184-ceac4a738e6f")
 		(effects
