@@ -5562,6 +5562,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/MF1-4LCT52R562J/21679762"
+			(at 232.41 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78a91e3a-45c2-4d5c-b44e-3782bb36cd55")
 		)
@@ -5624,6 +5633,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/kemet/C320C104M5R5TA/3726028"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -6030,6 +6048,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/norcomp-inc/112-014-213R001/955158"
+			(at 231.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "975ce971-41c3-4631-9a38-c6047e9788e6")
 		)
@@ -6333,6 +6360,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/kemet/C320C104M5R5TA/3726028"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b53a59d9-ee33-4857-8c41-8dd55370d7d2")
 		)
@@ -6614,6 +6650,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/microchip-technology/ATF22V10C-15PU/1008580"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "e1cbf0d6-3f17-4fe8-9345-a2181b0a7e5f")
 		)
@@ -6741,6 +6786,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/MF1-4LCT52R562J/21679762"
+			(at 232.41 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7003,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJC106M016RNJ/563807"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJC476K010RNJ/1126838"
 			(at 100.33 60.96 0)
 			(effects
 				(font
@@ -7086,6 +7140,15 @@
 			)
 		)
 		(property "Description" "8-bit D Flip-Flop, reset"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC273N/277233"
 			(at 181.61 101.6 0)
 			(effects
 				(font
