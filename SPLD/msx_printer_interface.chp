@@ -7,7 +7,7 @@
                           |                 |
                        A4 |  2           23 | D1
                           |                 |
-                       A5 |  3           22 | DATAck
+                       A5 |  3           22 | CLKDATA
                           |                 |
                        A2 |  4           21 | STROBEn
                           |                 |

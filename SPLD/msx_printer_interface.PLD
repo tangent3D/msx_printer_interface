@@ -1,10 +1,10 @@
 GAL22V10
 
 D0 A4 A5 A2 A3 A1 A7 RDn IORQn NC NC GND
-NC NC BUSDIRn WRn RESETn A6 A0 BUSY STROBEn DATAck D1 VCC
+NC NC BUSDIRn WRn RESETn A6 A0 BUSY STROBEn CLKDATA D1 VCC
 
 ; Data clock HIGH when I/O WRITE to 91h
-    DATAck = RDn * /WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * A0
+    CLKDATA = RDn * /WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * A0
 
 ; D1 follows state of BUSY when I/O READ from 90h, else Hi-Z
     D1.T = BUSY
