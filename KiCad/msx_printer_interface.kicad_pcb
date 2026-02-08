@@ -446,7 +446,7 @@
 		)
 		(pad "" thru_hole circle
 			(at 3.95 10.7 180)
-			(size 4 4)
+			(size 6.35 6.35)
 			(drill 3.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -455,7 +455,7 @@
 		)
 		(pad "" thru_hole circle
 			(at 39.95 10.7 180)
-			(size 4 4)
+			(size 6.35 6.35)
 			(drill 3.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
