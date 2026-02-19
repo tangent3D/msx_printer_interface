@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "User" 109 69.5)
 	(layers
 		(0 "F.Cu" mixed)
 		(2 "B.Cu" mixed)
@@ -291,7 +291,7 @@
 		(sheetfile "msx_printer_interface.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0 0)
+			(start 0 3.5)
 			(end 0 15.1)
 			(stroke
 				(width 0.15)
@@ -311,7 +311,7 @@
 			(uuid "b54686d3-71c1-4949-9a71-27dea2f0c26f")
 		)
 		(fp_line
-			(start 43.9 0)
+			(start 43.9 3.5)
 			(end 43.9 15.1)
 			(stroke
 				(width 0.15)
@@ -450,7 +450,6 @@
 			(drill 3.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
 			(uuid "20ffbbc5-1f65-4e81-9bd3-dc9b6a67d061")
 		)
 		(pad "" thru_hole circle
