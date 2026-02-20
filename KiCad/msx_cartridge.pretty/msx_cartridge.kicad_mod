@@ -322,7 +322,7 @@
 	)
 	(fp_circle
 		(center 31 46.5)
-		(end 33 46.5)
+		(end 33.3 46.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -333,7 +333,7 @@
 	)
 	(fp_circle
 		(center 87.7 51.5)
-		(end 89.7 51.5)
+		(end 90 51.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -354,25 +354,25 @@
 	)
 	(fp_circle
 		(center 31 46.5)
-		(end 33 46.5)
+		(end 33.3 46.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "aca76891-7179-4ec1-831f-d713d8ee64f3")
+		(uuid "5ee33114-c78a-4e41-8c7a-63db595a0f80")
 	)
 	(fp_circle
 		(center 87.7 51.5)
-		(end 89.7 51.5)
+		(end 90 51.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "f7b71614-4ce4-496d-9e25-20bf12e1a3aa")
+		(uuid "160a4386-23e0-4b02-a992-1b472c71dba4")
 	)
 	(pad "1" connect oval
 		(at 89.83 62.3375)
