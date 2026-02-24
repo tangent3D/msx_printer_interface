@@ -111,6 +111,7 @@
 		(pad_to_mask_clearance 0.2)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(grid_origin 61.85 50.83)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_555555d5_575d55ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
