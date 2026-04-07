@@ -1,7 +1,7 @@
 
 
 AR
-  0  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
+  0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
 Pin 23 = D1           S0 = 1   S1 = 0
   1  ---- x--- -x-- -x-- -x-x -x-x x--- -xx- -x-- ---- ----
@@ -27,9 +27,9 @@ Pin 22 = CLKDATA      S0 = 1   S1 = 0
  19  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  20  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 21 = STROBEn      S0 = 1   S1 = 0
- 21  ---- x--- -x-- -x-- -x-x -x-x x--- x--x -x-- ---- ----
- 22  x--- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+Pin 21 = PSTBn        S0 = 1   S1 = 0
+ 21  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 22  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- --x-
  23  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  24  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  25  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -129,9 +129,9 @@ Pin 16 = WRn          S0 = 0   S1 = 0
 109  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 110  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 15 = BUSDIRn      S0 = 1   S1 = 0
+Pin 15 = BDIRn        S0 = 1   S1 = 0
 111  ---- x--- -x-- -x-- -x-x -x-x x--- -xx- -x-- ---- ----
-112  ---- ---- ---- ---- ---- ---- ---- -x-- -x-- ---- ----
+112  ---- ---- ---- ---- ---- ---- ---- x--- ---- ---- ----
 113  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 114  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 115  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -142,9 +142,9 @@ Pin 15 = BUSDIRn      S0 = 1   S1 = 0
 120  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = NC           S0 = 0   S1 = 0
-122  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+Pin 14 = CLKPSTB      S0 = 1   S1 = 0
+122  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+123  ---- x--- -x-- -x-- -x-x -x-x x--- x--x -x-- ---- ----
 124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 125  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 126  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx

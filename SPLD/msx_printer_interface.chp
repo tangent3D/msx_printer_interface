@@ -3,13 +3,13 @@
                                 GAL22V10
 
                           -------\___/-------
-                       D0 |  1           24 | VCC
+                    CLOCK |  1           24 | VCC
                           |                 |
                        A4 |  2           23 | D1
                           |                 |
                        A5 |  3           22 | CLKDATA
                           |                 |
-                       A2 |  4           21 | STROBEn
+                       A2 |  4           21 | PSTBn
                           |                 |
                        A3 |  5           20 | BUSY
                           |                 |
@@ -21,9 +21,9 @@
                           |                 |
                     IORQn |  9           16 | WRn
                           |                 |
-                       NC | 10           15 | BUSDIRn
+                       NC | 10           15 | BDIRn
                           |                 |
-                       NC | 11           14 | NC
+                       NC | 11           14 | CLKPSTB
                           |                 |
-                      GND | 12           13 | NC
+                      GND | 12           13 | D0
                           -------------------
