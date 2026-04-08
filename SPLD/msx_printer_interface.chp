@@ -5,25 +5,25 @@
                           -------\___/-------
                     CLOCK |  1           24 | VCC
                           |                 |
-                       A4 |  2           23 | D1
+                       D0 |  2           23 | CLKPSTB
                           |                 |
-                       A5 |  3           22 | CLKDATA
+                       A4 |  3           22 | CLKDATA
                           |                 |
-                       A2 |  4           21 | PSTBn
+                       A5 |  4           21 | D1
                           |                 |
-                       A3 |  5           20 | BUSY
+                       A3 |  5           20 | PSTBn
                           |                 |
-                       A1 |  6           19 | A0
+                       A0 |  6           19 | BUSY
                           |                 |
-                       A7 |  7           18 | A6
+                       A1 |  7           18 | A2
                           |                 |
-                      RDn |  8           17 | RESETn
+                       A7 |  8           17 | A6
                           |                 |
-                    IORQn |  9           16 | WRn
+                      RDn |  9           16 | WRn
                           |                 |
-                       NC | 10           15 | BDIRn
+                    IORQn | 10           15 | BDIRn
                           |                 |
-                       NC | 11           14 | CLKPSTB
+                   RESETn | 11           14 | NC
                           |                 |
-                      GND | 12           13 | D0
+                      GND | 12           13 | NC
                           -------------------
