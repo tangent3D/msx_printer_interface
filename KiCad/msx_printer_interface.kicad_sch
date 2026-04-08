@@ -4137,6 +4137,28 @@
 			)
 		)
 	)
+	(global_label "#STROBE"
+		(shape input)
+		(at 142.24 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26c3103d-2786-45f7-a136-3e3066f23139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.6918 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D7"
 		(shape input)
 		(at 76.2 107.95 0)
@@ -4150,28 +4172,6 @@
 		(uuid "27a3d407-8447-4f51-8b65-68fcf637f8b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.6647 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A2"
-		(shape input)
-		(at 142.24 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d89298f-9a04-4dfd-a84d-56998fa5aa06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.5233 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,6 +4621,28 @@
 			)
 		)
 	)
+	(global_label "BUSY"
+		(shape input)
+		(at 142.24 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "740cd423-f28d-45b5-89c6-aa319a0103f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.1238 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A2"
 		(shape input)
 		(at 63.5 95.25 180)
@@ -4634,6 +4656,50 @@
 		(uuid "7a582a0b-954c-4a07-abf9-8d89446dfb91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.2167 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 142.24 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a950f4d-b50c-4146-a7f0-ff68195d6a5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5233 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 101.6 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d8b966e-700d-4a90-9e8f-5281e0e0cbbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.3167 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,28 +4929,6 @@
 			)
 		)
 	)
-	(global_label "BUSY"
-		(shape input)
-		(at 142.24 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97dac0e6-ba96-465e-b3b6-3407f9dc7871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1238 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D3_Printer"
 		(shape input)
 		(at 226.06 104.14 180)
@@ -5074,28 +5118,6 @@
 		(uuid "ad4d9383-1bd1-4581-af4d-6327f6134d4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.3167 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A3"
-		(shape input)
-		(at 101.6 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afcf5f94-3f94-44fd-820b-949b3213bef2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3167 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,28 +5321,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "#STROBE"
-		(shape input)
-		(at 142.24 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcbc16bc-58eb-4a59-822a-942d0e353335")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6918 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
