@@ -1,7 +1,10 @@
 GAL22V10
 
-D0 A4 A5 A2 A3 A1 A7 RDn IORQn NC NC GND
-NC NC BUSDIRn WRn RESETn A6 A0 BUSY STROBEn CLKDATA D1 VCC
+;CLOCK A4 A5 A2 A3 A1 A7 RDn IORQn NC NC GND
+;D0 CLKPSTB BDIRn WRn RESETn A6 A0 BUSY PSTBn CLKDATA D1 VCC
+
+CLOCK D0 A4 A5 A3 A0 A1 A7 RDn IORQn RESETn GND
+NC NC BDIRn WRn A6 A2 BUSY PSTBn D1 CLKDATA CLKPSTB VCC
 
 ; Data clock HIGH when I/O WRITE to 91h
     CLKDATA = RDn * /WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * A0
@@ -10,13 +13,14 @@ NC NC BUSDIRn WRn RESETn A6 A0 BUSY STROBEn CLKDATA D1 VCC
     D1.T = BUSY
     D1.E = /RDn * WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
 
-; BUSDIRn follows state of RDn & IORQn when I/O READ from 90h, else Hi-Z
-    BUSDIRn.T = /RDn * /IORQn
-    BUSDIRn.E = /RDn * WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
+; BDIRn follows state of RDn when I/O READ from 90h, else Hi-Z
+    BDIRn.T = RDn
+    BDIRn.E = /RDn * WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
 
-; STROBEn stores state of D0 when I/O WRITE to 90h, resets to 1 upon /RESET
-    STROBEn.R = D0
-    STROBEn.E = RDn * /WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
-    AR = /RESETn
+; CLKPSTB produces rising edge upon I/O WRITE to 90h
+; CLKPSTB is externaly looped back to global clock (pin 1)
+; PSTBn latches state of D0 on clock rising edge
+    CLKPSTB = RDn * /WRn * /IORQn * A7 * /A6 * /A5 * A4 * /A3 * /A2 * /A1 * /A0
+    PSTBn.R = D0
 
 DESCRIPTION
